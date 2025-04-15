@@ -1,3 +1,19 @@
+How to install app to homey: 
+---
+
+```shell
+curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.2/install.sh | bash
+
+npm install --global --no-optional homey
+nvm install 18.20.7
+npm install
+homey login
+homey select
+homey app install
+```
+
+
+
 ### Tuya Zigbee
 Adds support for Tuya Zigbee devices
 
